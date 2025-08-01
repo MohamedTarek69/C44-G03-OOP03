@@ -75,7 +75,7 @@ namespace Session_03
             //            Console.WriteLine("Invalid Salary. Please enter a non-negative number.");
             //        }
             //    } while (!IsParseSalary || salary < 0);
-                
+
             //    Gender gender;
             //    bool isParse;
             //    do
@@ -86,7 +86,7 @@ namespace Session_03
 
             //    SecurityPrivileges security;
             //    bool isParseSecurity;
-                 
+
             //    do
             //    {
             //        Console.Write("Enter Security Level: \n(Guest, Developer, Secretary, DBA, SecurityOfficer): ");
@@ -94,7 +94,7 @@ namespace Session_03
             //        if (!isParseSecurity)
             //            Console.WriteLine("Invalid Security Level. Try again.");
             //    } while (!isParseSecurity);
-             
+
             //    int day, month, year;
             //    bool IsValidDay;
             //    bool IsValidMonth;
@@ -153,7 +153,13 @@ namespace Session_03
             //    Console.WriteLine(emp);
             //}
 
+            // There is no boxing and unboxing in the above code
+            // Because we are not converting any value type to object 
+
+
             #endregion
+
+
 
         }
     }
