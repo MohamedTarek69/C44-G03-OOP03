@@ -159,7 +159,27 @@ namespace Session_03
 
             #endregion
 
+            #region Q5
+            //Book book = new Book("C# Programming", "Mohamed Tarek", 1234567890);
 
+            //EBook eBook = new EBook("C++ Programming E-Book", "Ahmed Samy", 876543210, 50.9);
+
+            //PrintedBook printedBook = new PrintedBook("C Programming Printed Book", "Mohamed Abdo", 1122334455, 300);
+
+            //Console.WriteLine("Book Information: ");
+            //Console.WriteLine(book.DisplayInfo());
+            //Console.WriteLine("\nE-Book Information: ");
+            //Console.WriteLine(eBook.DisplayInfo());
+            //Console.WriteLine("\nPrinted Book Information: ");
+            //Console.WriteLine(printedBook.DisplayInfo());
+
+            // Demonstration of how inheritance simplifies the design:
+            // Instead of duplicating common properties (like Title, Author, ISBN) 
+            // and methods (like DisplayInfo) in each derived class (EBook, PrintedBook),
+            // we define them once in the base class Book, and reuse them through inheritance.
+            // Then we only add or override what's specific to each derived class.
+
+            #endregion
 
         }
     }
