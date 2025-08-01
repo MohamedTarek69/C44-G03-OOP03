@@ -1,4 +1,6 @@
 ﻿using Session_03.Inheretance;
+using Common;
+using System;
 namespace Session_03
 {
     internal class Program
@@ -25,10 +27,30 @@ namespace Session_03
             //Console.WriteLine(Parent.Product());
             //Parent.MyFunc();    
 
-            Child child = new Child(10, 20, 30);
-            Console.WriteLine(child);
-            Console.WriteLine(child.Product());
-            child.MyFunc();
+            //Child child = new Child(10, 20, 30);
+            //Console.WriteLine(child);
+            //Console.WriteLine(child.Product());
+            //child.MyFunc();
+
+            //---------------------------------------- Vedio 05 ------------------------------------------
+            //TypeA typeA = new TypeA();
+            ////typeA.A = 10;
+            ////typeA.B = 10;
+            //typeA.C = 10;
+            ////typeA.X = 10;
+            ////typeA.Y = 10;
+            ////typeA.Z = 10;
+
+            //TypeD typeD = new TypeD();
+            ////typeD.A = 10;
+            ////typeD.B = 10;
+            //typeD.C = 10;
+            ////typeD.X = 10;
+            ////typeD.Y = 10;
+            ////typeD.Z = 10;
+
+            
+
 
 
         }
