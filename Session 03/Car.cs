@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Session_03
 {
@@ -54,6 +55,22 @@ namespace Session_03
             this.id=id;
             this.model=model;
             this.speed=speed;
+            Console.WriteLine("1st Ctor");
+        }
+        public Car(int id, string? model): this(id,model,250)
+        {
+            //this.id = id;
+            //this.model = model;
+            //this.speed = 250;
+            Console.WriteLine("2nd Ctor");
+        }
+
+        public Car(int id): this(id, "Mercedes")   
+        {
+            //this.id = id;
+            //this.model = "Mercedes";
+            //this.speed = 350;
+            Console.WriteLine("3rd Ctor");
         }
 
         #endregion
@@ -65,9 +82,6 @@ namespace Session_03
         }
 
         #endregion
-
-
-
 
     }
 }
