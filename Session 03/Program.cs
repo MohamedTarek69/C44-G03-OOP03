@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //---------------------------------------- Vedio 01 ------------------------------------------
+            // Create Object | Intance from Car
+            Car C1;
+            // 1. Allocate 4 bytes in Stack [Null]
+            C1 = new Car(0,"BMW",500);
+
+            Console.WriteLine(C1);
+            //Console.WriteLine(C1.ToString());
         }
     }
 }
