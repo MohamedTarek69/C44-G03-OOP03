@@ -1,4 +1,5 @@
-﻿namespace Session_03
+﻿using Session_03.Inheretance;
+namespace Session_03
 {
     internal class Program
     {
@@ -6,7 +7,7 @@
         {
             //---------------------------------------- Vedio 01 ------------------------------------------
             // Create Object | Intance from Car
-            Car C1;
+            //Car C1;
             // 1. Allocate 4 bytes in Stack [Null]
             //C1 = new Car(0,"BMW",500);
 
@@ -15,8 +16,21 @@
 
             //---------------------------------------- Vedio 02 ------------------------------------------
             //C1 = new Car(10);
-            C1 = new Car(10);
-            Console.WriteLine(C1);
+            //C1 = new Car(10);
+            //Console.WriteLine(C1);
+
+            //---------------------------------------- Vedio 04 ------------------------------------------
+            //Parent Parent = new Parent(10, 20);
+            //Console.WriteLine(Parent);
+            //Console.WriteLine(Parent.Product());
+            //Parent.MyFunc();    
+
+            Child child = new Child(10, 20, 30);
+            Console.WriteLine(child);
+            Console.WriteLine(child.Product());
+            child.MyFunc();
+
+
         }
     }
 }
